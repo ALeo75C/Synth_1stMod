@@ -1,0 +1,13 @@
+.keyBoard {
+  display: flex;
+  width: auto;
+  .Button {
+    margin-right: 25px;
+  }
+}
+
+.keyBoardsColection {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+}

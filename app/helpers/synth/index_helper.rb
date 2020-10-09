@@ -1,0 +1,2 @@
+module Synth::IndexHelper
+end

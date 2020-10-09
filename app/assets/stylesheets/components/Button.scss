@@ -1,0 +1,26 @@
+.Button {
+  width: 57px;
+  height: 150px;
+  border: 6px solid #0d2c2f;
+  background: #ffe4ed;
+  padding: 167px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  span {
+    color: #01555f;
+    font-weight: 900;
+    font-size: 27px;
+    text-transform: uppercase;
+
+    &:first-of-type {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+  }
+  &.on {
+    background-color: #f0839a;
+  }
+}
